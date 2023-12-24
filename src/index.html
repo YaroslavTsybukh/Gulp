@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+@include("partials/head.html")
+
+<body class="page__body">
+  <div class="site-container">
+    @include("partials/header.html")
+    <main class="main">
+      <picture>
+        <source type="image/webp" srcset="img/cover.webp">
+        <img class="image" src="img/cover.jpg" alt="Обложка канала MaxGraph" width="300" height="300" loading="lazy">
+      </picture>
+    </main>
+    @include("partials/footer.html")
+    <!-- @include("html/h1.html") пример include -->
+  </div>
+</body>
+
+</html>
